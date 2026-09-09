@@ -19,7 +19,7 @@ function OnClick(event) {
 }
 
 function Main() {
-  if (document.getElementById("BUTTON_ID") != null)
+  if (document.getElementById(BUTTON_ID) != null)
     return;
 
   var div = document.getElementById("left-content");
